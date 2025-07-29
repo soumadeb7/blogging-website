@@ -1,0 +1,8 @@
+services:
+  type: web
+  name: blogging-website
+  env: python
+  plan: free
+  buildCommand: pip install-r requirments.txt
+  startCommand: python app.python
+  pythonVersion: "3.12.1"
